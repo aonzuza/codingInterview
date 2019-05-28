@@ -98,20 +98,3 @@ class LinkedList:
 
             previousNode = currentNode;
             currentNode  = currentNode.next;
-
-
-
-lst = LinkedList();
-lst.append(0);
-lst.append(1);
-lst.append(2);
-lst.append(3);
-lst.append(4);
-# #lst.show();
-#
-# lst.prepend(5);
-lst.show();
-
-# lst.reverse();
-# lst.recursiveReverse();
-# lst.show();
